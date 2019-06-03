@@ -3,6 +3,7 @@ import Enzyme, {shallow} from 'enzyme';
 import App from './App';
 
 import Adapter from 'enzyme-adapter-react-16';
+import AppMain from './AppMain';
 Enzyme.configure({ adapter: new Adapter()})
 
 describe('<App />', () => {
@@ -11,7 +12,9 @@ describe('<App />', () => {
         wrapper = shallow(<App />);
     })
     it('contains a header', () => {
-        console.log(wrapper.debug())
         expect(wrapper.exists('header')).toEqual(true);
+    })
+    it('contains an AppMain', () => {
+        expect(wrapper.exists(AppMain)).toEqual(true);
     })
 })
