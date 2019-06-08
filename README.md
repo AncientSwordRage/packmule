@@ -1,3 +1,11 @@
+# PackMule
+
+[![Build Status](https://semaphoreci.com/api/v1/ancientswordrage/packmule/branches/master/badge.svg)](https://semaphoreci.com/ancientswordrage/packmule)
+
+React App designed to help create [Data packs](https://minecraft.gamepedia.com/Data_pack) in minecraft.
+
+----
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
