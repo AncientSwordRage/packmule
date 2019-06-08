@@ -22,8 +22,8 @@ const AppMain = () =>{
              alert(JSON.stringify(values, null, 2));
              setSubmitting(false);
            }, 400);
-         }}>
-         {({ isSubmitting }) => (
+         }}
+         render={({ isSubmitting }) => (
           <Form className="form-container">
             <MetaFields />
             <Divider variant="middle"></Divider>
@@ -31,7 +31,7 @@ const AppMain = () =>{
               Submit
             </Button>
           </Form>
-        )}
+        )}>
         </Formik>
       </main>)
 }

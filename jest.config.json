@@ -1,0 +1,6 @@
+{
+    "collectCoverage": true,
+    "transform": {
+        "^.+\\.js$": "babel-jest"
+    }
+}
