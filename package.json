@@ -4,16 +4,20 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.0.1",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.13.2",
     "formik": "^1.5.7",
     "material-ui": "^0.20.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "sinon": "^7.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "cover": "jest --config ./jest.config.json",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
