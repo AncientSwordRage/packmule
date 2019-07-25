@@ -4,7 +4,7 @@ import { SimpleField } from './Fields';
 
 export const MetaFields = () => (
     <React.Fragment>
-        <Typography variant="h4">
+        <Typography variant="h3">
             Meta Fields
         </Typography>
         <SimpleField name="pack_name" label="Pack Name" />

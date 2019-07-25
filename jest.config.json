@@ -1,6 +1,9 @@
 {
-    "collectCoverage": true,
-    "transform": {
-        "^.+\\.js$": "babel-jest"
-    }
+  "collectCoverage": true,
+  "transform": {
+    "^.+\\.js$": "<rootDir>/jest-transformer.js"
+  }, 
+  "moduleNameMapper":{
+    "\\.(css|scss)$": "<rootDir>/__mocks__/styleMock.js"
+  }
 }
